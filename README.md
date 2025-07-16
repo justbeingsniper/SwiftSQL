@@ -140,7 +140,7 @@ Runs at `http://localhost:5173`.
 
 ## License
 
-This project is currently unlicensed. You may add a `LICENSE` file for distribution terms.
+This project is currently unlicensed. 
 
 ---
 
