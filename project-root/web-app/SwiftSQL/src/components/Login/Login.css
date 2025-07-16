@@ -1,0 +1,159 @@
+.login-screen {
+  font-family: Inter, -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 900px;
+  width: 100%;
+  padding: 226px 80px;
+  align-items: center;
+  justify-content: center;
+  border: #1f1f1f 5px solid;
+  
+}
+
+.login-content {
+  background-color: #fcfcfc;
+  border-radius: 5px;
+  position: relative;
+  padding:20px 10px;
+  display: flex;
+  height: 600px;
+  margin-bottom: -45px;
+  width: 453px;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.logo-section {
+  display: flex;
+  width: 169px;
+  max-width: 100%;
+  align-items: stretch;
+  gap: 8px;
+}
+
+
+.brand-name {
+  margin: 50px 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 125px;
+  font-size: 28px;
+  color: #1f1f1f;
+  font-weight: 600;
+  text-wrap:nowrap;
+}
+
+.login-form {
+  background-color: transparent;
+  align-self: stretch;
+  margin-top: 20px;
+  padding: 0 2px;
+  font-size: 13px;
+}
+
+.form-container {
+  border-radius: 10px 12px 4px 7px;
+  background-color: #fcfcfc;
+  display: flex;
+  padding: 10px 26px;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.guest-login-button{
+  background-color: #e2403a;
+  border: none;
+  border-radius: 21px;
+  color: #fdfdfd;
+  padding: 16px 70px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-family: inherit;
+  width: 100%;
+  font-size: 18px;
+}
+.guest-login-button a{
+  text-decoration: none;
+  color: #fdfdfd;
+}
+.google-login-button {
+  background-color: #1812c2;
+  border: none;
+  border-radius: 22px;
+  padding: 13px 70px;
+  margin-top: 15px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.google-text{
+  text-wrap:nowrap;
+}
+
+.google-button-content {
+  display: flex;
+  width: 135px;
+  max-width: 100%;
+  align-items: center;
+  gap: 7px;
+  margin: 0 auto;
+}
+
+.google-icon {
+  width: 21px;
+  height: 21px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.google-text {
+  color: #a9a9a9;
+}
+
+.login-footer {
+  margin-top: 16px;
+}
+
+.copyright-text {
+  color: #747474;
+  font-size: 11px;
+  text-align: center;
+  margin: 0;
+}
+
+/* Label for password field needs specific styling */
+label[for="password"] {
+  color: #555555;
+  margin-top: 13px;
+}
+
+@media (max-width: 991px) {
+  .login-container {
+    max-width: 100%;
+    padding: 100px 20px;
+  }
+
+  .login-content {
+    margin-bottom: 10px;
+  }
+
+  .form-container {
+    padding: 30px 20px;
+  }
+
+  .login-button,
+  .google-login-button {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
